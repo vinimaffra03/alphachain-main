@@ -49,9 +49,7 @@ function OnChainData() {
               }}
             >
               Dominio:{" "}
-              <strong>
-                BTC {data.market_cap_change_percentage_24h_usd.toFixed(2)}%
-              </strong>
+              <strong>BTC {data.market_cap_percentage.btc.toFixed(2)}%</strong>
             </p>
 
             <p
